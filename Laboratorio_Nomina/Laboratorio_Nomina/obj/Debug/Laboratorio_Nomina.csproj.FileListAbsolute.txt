@@ -1,0 +1,15 @@
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\obj\Debug\Laboratorio_Nomina.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\obj\Debug\Laboratorio_Nomina.MDIParent1.resources
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\obj\Debug\Laboratorio_Nomina.Properties.Resources.resources
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\obj\Debug\Laboratorio_Nomina.csproj.GenerateResource.cache
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\obj\Debug\Laboratorio_Nomina.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\bin\Debug\Laboratorio_Nomina.exe.config
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\bin\Debug\Laboratorio_Nomina.exe
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\bin\Debug\Laboratorio_Nomina.pdb
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\bin\Debug\Capa_Datos.dll
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\bin\Debug\Capa_Logica.dll
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\bin\Debug\Capa_Datos.pdb
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\bin\Debug\Capa_Logica.pdb
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\obj\Debug\Laboratorio_Nomina.csproj.CopyComplete
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\obj\Debug\Laboratorio_Nomina.exe
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\obj\Debug\Laboratorio_Nomina.pdb
