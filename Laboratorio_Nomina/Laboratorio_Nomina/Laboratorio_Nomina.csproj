@@ -49,6 +49,66 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Consultas\consultaconcepto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\consultaconcepto.Designer.cs">
+      <DependentUpon>consultaconcepto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\consultadepartamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\consultadepartamento.Designer.cs">
+      <DependentUpon>consultadepartamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\consultaempleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\consultaempleado.Designer.cs">
+      <DependentUpon>consultaempleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\Consultapuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Consultapuesto.Designer.cs">
+      <DependentUpon>Consultapuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultasucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\Frm_consultasucursal.designer.cs">
+      <DependentUpon>Frm_consultasucursal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Frm_departamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Frm_departamentos.Designer.cs">
+      <DependentUpon>Frm_departamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Frm_mantConcepto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Frm_mantConcepto.Designer.cs">
+      <DependentUpon>Frm_mantConcepto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Frm_mantEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Frm_mantEmpleado.Designer.cs">
+      <DependentUpon>Frm_mantEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Frm_Mantpuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Frm_Mantpuesto.Designer.cs">
+      <DependentUpon>Frm_Mantpuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento\Frm_sucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento\Frm_sucursal.designer.cs">
+      <DependentUpon>Frm_sucursal.cs</DependentUpon>
+    </Compile>
     <Compile Include="MDIParent1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +117,36 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Consultas\consultaconcepto.resx">
+      <DependentUpon>consultaconcepto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\consultadepartamento.resx">
+      <DependentUpon>consultadepartamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\consultaempleado.resx">
+      <DependentUpon>consultaempleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\Consultapuesto.resx">
+      <DependentUpon>Consultapuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas\Frm_consultasucursal.resx">
+      <DependentUpon>Frm_consultasucursal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Frm_departamentos.resx">
+      <DependentUpon>Frm_departamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Frm_mantConcepto.resx">
+      <DependentUpon>Frm_mantConcepto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Frm_mantEmpleado.resx">
+      <DependentUpon>Frm_mantEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Frm_Mantpuesto.resx">
+      <DependentUpon>Frm_Mantpuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento\Frm_sucursal.resx">
+      <DependentUpon>Frm_sucursal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MDIParent1.resx">
       <DependentUpon>MDIParent1.cs</DependentUpon>
     </EmbeddedResource>
@@ -91,6 +181,9 @@
       <Project>{4f3c77a3-0f86-485b-8c4d-a7a6e44f89f8}</Project>
       <Name>Capa_Logica</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Procesos\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

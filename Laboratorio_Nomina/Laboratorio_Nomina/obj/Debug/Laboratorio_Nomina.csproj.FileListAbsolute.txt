@@ -13,3 +13,13 @@ C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\bin\Debug\Capa_Logi
 C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\obj\Debug\Laboratorio_Nomina.csproj.CopyComplete
 C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\obj\Debug\Laboratorio_Nomina.exe
 C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\obj\Debug\Laboratorio_Nomina.pdb
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\obj\Debug\Laboratorio_Nomina.Mantenimiento.Frm_Mantpuesto.resources
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\obj\Debug\Laborartorio_FilmMagic.Mantenimientos.Frm_sucursal.resources
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\obj\Debug\Laboratorio_Nomina.Consultas.Consultapuesto.resources
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\obj\Debug\Laborartorio_FilmMagic.Consulta.Frm_consultasucursal.resources
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\obj\Debug\Laboratorio_Nomina.Consultas.consultaconcepto.resources
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\obj\Debug\Laboratorio_Nomina.Consultas.consultadepartamento.resources
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\obj\Debug\Laboratorio_Nomina.Mantenimiento.Frm_departamentos.resources
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\obj\Debug\Laboratorio_Nomina.Mantenimiento.Frm_mantConcepto.resources
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\obj\Debug\Laboratorio_Nomina.Consultas.consultaempleado.resources
+C:\Users\prueb\Desktop\Laboratorio_Nomina\Laboratorio_Nomina\obj\Debug\Laboratorio_Nomina.Mantenimiento.Frm_mantEmpleado.resources
