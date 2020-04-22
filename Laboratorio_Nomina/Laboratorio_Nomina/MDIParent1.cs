@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Laboratorio_Nomina.Mantenimiento;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -101,6 +102,102 @@ namespace Laboratorio_Nomina
             foreach (Form childForm in MdiChildren)
             {
                 childForm.Close();
+            }
+        }
+
+        bool ventanaordenpuesto = false;
+        Frm_Mantpuesto puesto = new Frm_Mantpuesto();
+        private void PuestosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_Mantpuesto);
+            if (ventanaordenpuesto == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    puesto = new Frm_Mantpuesto();
+                }
+
+                puesto.MdiParent = this;
+                puesto.Show();
+                Application.DoEvents();
+                ventanaordenpuesto = true;
+            }
+            else
+            {
+                puesto.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanadepto = false;
+        Frm_departamentos depto = new Frm_departamentos();
+        private void DepartamentosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_departamentos);
+            if (ventanadepto == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    depto = new Frm_departamentos();
+                }
+
+                depto.MdiParent = this;
+                depto.Show();
+                Application.DoEvents();
+                ventanadepto = true;
+            }
+            else
+            {
+                depto.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+
+        bool ventanaoconcepto = false;
+        Frm_mantConcepto concepto = new Frm_mantConcepto();
+        private void ConceptosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_mantConcepto);
+            if (ventanaoconcepto == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    concepto = new Frm_mantConcepto();
+                }
+
+                concepto.MdiParent = this;
+                concepto.Show();
+                Application.DoEvents();
+                ventanaoconcepto = true;
+            }
+            else
+            {
+                concepto.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanaempleado= false;
+        Frm_mantEmpleado empleado = new Frm_mantEmpleado();
+        private void EmpleadoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is Frm_mantEmpleado);
+            if (ventanaempleado == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    empleado = new Frm_mantEmpleado();
+                }
+
+                empleado.MdiParent = this;
+                empleado.Show();
+                Application.DoEvents();
+                ventanaempleado = true;
+            }
+            else
+            {
+                empleado.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
     }

@@ -38,6 +38,10 @@
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip = new System.Windows.Forms.ToolStrip();
             this.label1 = new System.Windows.Forms.Label();
+            this.puestosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.departamentosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.conceptosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.empleadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,6 +69,11 @@
             // 
             // mantenimientoToolStripMenuItem
             // 
+            this.mantenimientoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.puestosToolStripMenuItem,
+            this.departamentosToolStripMenuItem,
+            this.conceptosToolStripMenuItem,
+            this.empleadoToolStripMenuItem});
             this.mantenimientoToolStripMenuItem.Name = "mantenimientoToolStripMenuItem";
             this.mantenimientoToolStripMenuItem.Size = new System.Drawing.Size(124, 24);
             this.mantenimientoToolStripMenuItem.Text = "Mantenimiento";
@@ -112,6 +121,34 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "JOSE ALEJANDRO GONZALEZ TEO 0901-16-4904";
             // 
+            // puestosToolStripMenuItem
+            // 
+            this.puestosToolStripMenuItem.Name = "puestosToolStripMenuItem";
+            this.puestosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.puestosToolStripMenuItem.Text = "Puestos";
+            this.puestosToolStripMenuItem.Click += new System.EventHandler(this.PuestosToolStripMenuItem_Click);
+            // 
+            // departamentosToolStripMenuItem
+            // 
+            this.departamentosToolStripMenuItem.Name = "departamentosToolStripMenuItem";
+            this.departamentosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.departamentosToolStripMenuItem.Text = "Departamentos";
+            this.departamentosToolStripMenuItem.Click += new System.EventHandler(this.DepartamentosToolStripMenuItem_Click);
+            // 
+            // conceptosToolStripMenuItem
+            // 
+            this.conceptosToolStripMenuItem.Name = "conceptosToolStripMenuItem";
+            this.conceptosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.conceptosToolStripMenuItem.Text = "Conceptos";
+            this.conceptosToolStripMenuItem.Click += new System.EventHandler(this.ConceptosToolStripMenuItem_Click);
+            // 
+            // empleadoToolStripMenuItem
+            // 
+            this.empleadoToolStripMenuItem.Name = "empleadoToolStripMenuItem";
+            this.empleadoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.empleadoToolStripMenuItem.Text = "Empleado";
+            this.empleadoToolStripMenuItem.Click += new System.EventHandler(this.EmpleadoToolStripMenuItem_Click);
+            // 
             // MDIParent1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -146,6 +183,10 @@
         private System.Windows.Forms.ToolStripMenuItem herramientasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolStripMenuItem puestosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem departamentosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem conceptosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem empleadoToolStripMenuItem;
     }
 }
 
